@@ -51,6 +51,7 @@ GameObject:
   - component: {fileID: 5675151824334269903}
   - component: {fileID: 468423523440042425}
   - component: {fileID: 6050161527882119805}
+  - component: {fileID: 2288789084518995687}
   m_Layer: 0
   m_Name: Player_Gretel
   m_TagString: Player
@@ -68,10 +69,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -11.94, y: -2.4, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1097057596708415781}
+  - {fileID: 2444601085708611976}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8577184571469070877
@@ -112,15 +114,15 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1505598411
-  m_SortingLayer: 7
+  m_SortingLayerID: -101994387
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1909742885, guid: 271478a2db89bc34c95b0384547cf0e8, type: 3}
+  m_Sprite: {fileID: 921955641, guid: 52ef457be22003e4ba3251dda593f7b2, type: 3}
   m_Color: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 0.5}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -158,18 +160,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0037937164, y: 0.45241293}
+  m_Offset: {x: -0.0050668716, y: 0.3764856}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
     oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 0.5}
+    newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.4612999, y: 0.71886116}
+  m_Size: {x: 0.4381981, y: 0.7705302}
   m_EdgeRadius: 0
 --- !u!50 &1250889330984977892
 Rigidbody2D:
@@ -226,6 +228,7 @@ MonoBehaviour:
   anim: {fileID: 5675151824334269903}
   pInfo: {fileID: 0}
   speed: 8
+  carrying: 0
 --- !u!114 &7914927699393056963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,3 +373,47 @@ MonoBehaviour:
   isAlive: 1
   puntaje: 0
   female: 1
+--- !u!114 &2288789084518995687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8214929035430653895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa0ed76fb7ca3241b29509a3aa1fdec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPos: {fileID: 2444601085708611976}
+--- !u!1 &8455317741915033018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2444601085708611976}
+  m_Layer: 0
+  m_Name: posCargando
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2444601085708611976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8455317741915033018}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.358, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3968176027269742156}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
