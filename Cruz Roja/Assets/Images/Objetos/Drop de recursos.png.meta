@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e74ca4ffed402494f931f3b3f9b1eb93
+guid: 23f1f42cc5ea15d45ae250ed35a7fa33
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PJ LLEVAR ITEM_0
+      name: Drop de recursos_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 518a867fa3aea0f468471f2b9113c5ec
-      internalID: -2080079860
+      spriteID: 94f68023a422e0b4687233a54d50dd0e
+      internalID: 903680933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ LLEVAR ITEM_1
+      name: Drop de recursos_1
       rect:
         serializedVersion: 2
         x: 64
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb323e4f8aff67e439dfcd494fdd3a51
-      internalID: 617187496
+      spriteID: 8a6003af4794df74390a36d3907db4d6
+      internalID: -2145860774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ LLEVAR ITEM_2
+      name: Drop de recursos_2
       rect:
         serializedVersion: 2
         x: 128
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5b89b67f1dc46c4494779e3bc186739
-      internalID: -1167007082
+      spriteID: 3425808351eb98341a9a659c0fbe4f2b
+      internalID: 625780895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ LLEVAR ITEM_3
+      name: Drop de recursos_3
       rect:
         serializedVersion: 2
         x: 192
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e660c484657afb44a97af2fae0f3891
-      internalID: -1997253407
+      spriteID: d279969e608a01d4da6c8b41c5dc46e5
+      internalID: 1040141706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ LLEVAR ITEM_4
+      name: Drop de recursos_4
       rect:
         serializedVersion: 2
         x: 256
@@ -208,50 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e437399a6aaf4cd4da5819e22dbf300e
-      internalID: -1602038069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PJ LLEVAR ITEM_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 792cf04b5f06cac4b90aae745d53c5ee
-      internalID: 373081964
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PJ LLEVAR ITEM_6
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47b612a74361a9f42b7cc8ca817fe53e
-      internalID: -417851742
+      spriteID: 3d61e83dc25932c4b93adf5b772d65b7
+      internalID: -1711945469
       vertices: []
       indices: 
       edges: []
@@ -267,13 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PJ LLEVAR ITEM_0: -2080079860
-      PJ LLEVAR ITEM_1: 617187496
-      PJ LLEVAR ITEM_2: -1167007082
-      PJ LLEVAR ITEM_3: -1997253407
-      PJ LLEVAR ITEM_4: -1602038069
-      PJ LLEVAR ITEM_5: 373081964
-      PJ LLEVAR ITEM_6: -417851742
+      Drop de recursos_0: 903680933
+      Drop de recursos_1: -2145860774
+      Drop de recursos_2: 625780895
+      Drop de recursos_3: 1040141706
+      Drop de recursos_4: -1711945469
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e74ca4ffed402494f931f3b3f9b1eb93
+guid: 6c4b5241a63891a41baa5d205df491f0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PJ LLEVAR ITEM_0
+      name: Cafe_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 518a867fa3aea0f468471f2b9113c5ec
-      internalID: -2080079860
+      spriteID: 7c3f15f823e54714bb62b14b8107767a
+      internalID: -1407075634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ LLEVAR ITEM_1
+      name: Cafe_1
       rect:
         serializedVersion: 2
         x: 64
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb323e4f8aff67e439dfcd494fdd3a51
-      internalID: 617187496
+      spriteID: 2872675323c518b49abf7cacb6bf2f03
+      internalID: 1836397894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ LLEVAR ITEM_2
+      name: Cafe_2
       rect:
         serializedVersion: 2
         x: 128
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5b89b67f1dc46c4494779e3bc186739
-      internalID: -1167007082
+      spriteID: 478acc4e13d8f4e4aab6030a384b0064
+      internalID: 1663973564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ LLEVAR ITEM_3
+      name: Cafe_3
       rect:
         serializedVersion: 2
         x: 192
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e660c484657afb44a97af2fae0f3891
-      internalID: -1997253407
+      spriteID: fc2145e1092d99d488bdebbc9ae0a874
+      internalID: -291310246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ LLEVAR ITEM_4
+      name: Cafe_4
       rect:
         serializedVersion: 2
         x: 256
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e437399a6aaf4cd4da5819e22dbf300e
-      internalID: -1602038069
+      spriteID: 6116b2760a9d5fd4bbcd397c3adeb156
+      internalID: -474855078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ LLEVAR ITEM_5
+      name: Cafe_5
       rect:
         serializedVersion: 2
         x: 320
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 792cf04b5f06cac4b90aae745d53c5ee
-      internalID: 373081964
+      spriteID: 9682fa860d9610243a7bf251377d3495
+      internalID: 1946012553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PJ LLEVAR ITEM_6
+      name: Cafe_6
       rect:
         serializedVersion: 2
         x: 384
@@ -250,8 +250,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47b612a74361a9f42b7cc8ca817fe53e
-      internalID: -417851742
+      spriteID: ca9b601e3ad5c17498cbfae79e7e7e06
+      internalID: -1336845509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cafe_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887b771f9e5d2fd408ee497320610e46
+      internalID: -1982711509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cafe_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c47c9cbcdae1394bacb55b967952eb1
+      internalID: -1539807401
       vertices: []
       indices: 
       edges: []
@@ -267,13 +309,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PJ LLEVAR ITEM_0: -2080079860
-      PJ LLEVAR ITEM_1: 617187496
-      PJ LLEVAR ITEM_2: -1167007082
-      PJ LLEVAR ITEM_3: -1997253407
-      PJ LLEVAR ITEM_4: -1602038069
-      PJ LLEVAR ITEM_5: 373081964
-      PJ LLEVAR ITEM_6: -417851742
+      Cafe_0: -1407075634
+      Cafe_1: 1836397894
+      Cafe_2: 1663973564
+      Cafe_3: -291310246
+      Cafe_4: -474855078
+      Cafe_5: 1946012553
+      Cafe_6: -1336845509
+      Cafe_7: -1982711509
+      Cafe_8: -1539807401
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
