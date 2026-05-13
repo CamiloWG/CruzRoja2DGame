@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4336ce26eae3c074cb3a1d975130349c
+guid: bd845c8185a4a6941af4424b04b0ab1d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 500
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stop_0
+      name: Colpatria_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1600
-        width: 500
-        height: 400
+        y: 320
+        width: 371
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,83 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b107392bbc7fa3e469a33ac4baf9d723
-      internalID: 1156381377
+      spriteID: b8ee710c537270e478766ec43935b185
+      internalID: -244879518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stop_1
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 1600
-        width: 500
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad86eef109f89204b9971d8e3770701d
-      internalID: -2078388226
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stop_2
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 1600
-        width: 500
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: efe2af1b39cd9564dae4aba736cc5521
-      internalID: -179375281
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stop_3
-      rect:
-        serializedVersion: 2
-        x: 1500
-        y: 1600
-        width: 500
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92e2aeabbff1e614caae969e2d0829ae
-      internalID: 1773561632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stop_4
+      name: Colpatria_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 1200
-        width: 500
-        height: 400
+        y: 0
+        width: 371
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,29 +171,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ee1165bc4ef19543b7ec45ebe8db8d5
-      internalID: -1943507047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Stop_5
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 1200
-        width: 500
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b06026f415cf1a4686580125c7dbd93
-      internalID: -1206595820
+      spriteID: 3bdf1e51475d02243b30e58a0c71c4fc
+      internalID: -634465052
       vertices: []
       indices: 
       edges: []
@@ -272,12 +188,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Stop_0: 1156381377
-      Stop_1: -2078388226
-      Stop_2: -179375281
-      Stop_3: 1773561632
-      Stop_4: -1943507047
-      Stop_5: -1206595820
+      Colpatria_0: -244879518
+      Colpatria_1: -634465052
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
