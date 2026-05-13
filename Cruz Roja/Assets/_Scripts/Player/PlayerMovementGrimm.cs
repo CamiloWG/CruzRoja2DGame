@@ -8,6 +8,7 @@ public class PlayerMovementGrimm : MonoBehaviour
     private Rigidbody2D _rd;
     private NewInputGrimm _newInput;
     public Animator anim;
+    public Animator hudAnim;
     public PlayerInfo pInfo;
     public float speed;
     public bool carrying;
@@ -44,16 +45,28 @@ public class PlayerMovementGrimm : MonoBehaviour
         {            
             transform.rotation = Quaternion.Euler(0, 0, 0);
             SetAnimVal(carrying ? 3 : 2);
+            SetAnimValHUD(carrying ? 2 : 1);
         } else if( _newInput.inputX < 0)
         {
             transform.rotation = Quaternion.Euler(0, 180, 0);
             SetAnimVal(carrying ? 3 : 2);
-        } else SetAnimVal(carrying ? 1 : 0);
+            SetAnimValHUD(carrying ? 2 : 1);
+        }
+        else
+        {
+          SetAnimVal(carrying ? 1 : 0);
+          SetAnimValHUD(carrying ? 2 : 0);  
+        } 
     }
 
 
     private void SetAnimVal(float n)
     {
         anim.SetFloat("movX", n);
+    }
+
+    private void SetAnimValHUD(float n)
+    {
+        hudAnim.SetFloat("playerState", n);
     }
 }
