@@ -7,10 +7,12 @@ public class CarryObjects : MonoBehaviour
     private GameObject currentObject = null;
     public Transform objectPos;
     private PlayerMovementGrimm player;    
+    private PlayerInfo pInfo;
     // Start is called before the first frame update
     void Start()
     {
         player = GetComponent<PlayerMovementGrimm>();
+        pInfo = GetComponent<PlayerInfo>();
     }
 
     // Update is called once per frame
@@ -29,6 +31,19 @@ public class CarryObjects : MonoBehaviour
             other.transform.localRotation = Quaternion.identity;
             player.carrying = true;
         }
+    }
+
+    public void TakeOffObject()
+    {
+        Destroy(currentObject);
+        currentObject = null;
+        player.carrying = false;
+        pInfo.AddPoints(1);
+    }
+
+    public TYPE_OBJECTS? GetCurrentObject()
+    {
+        return currentObject ? currentObject.GetComponent<carryableObjects>().tipo : null;
     }
 }
 
