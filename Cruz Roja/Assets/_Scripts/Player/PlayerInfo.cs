@@ -45,6 +45,7 @@ public class PlayerInfo : MonoBehaviour
             return;
         }
 
+        AudioController.instance.PlayDeath();
         heartsAnim[0].SetBool("playerDamage", true);
         hudAnim.SetFloat("playerState", 3f);
         isAlive = false;

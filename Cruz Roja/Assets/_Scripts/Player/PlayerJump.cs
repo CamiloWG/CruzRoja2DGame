@@ -32,7 +32,7 @@ public class PlayerJump : MonoBehaviour
             _rd.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);            
             anim.SetBool("Jumping", true);
             hudAnim.SetBool("isJumping", true);
-            //AudioController.instance.PlayJump();
+            AudioController.instance.PlayJump();
         } 
     }
 }

@@ -16,4 +16,9 @@ public class PowerUpObjects : MonoBehaviour
     {
         
     }
+
+    public POWERUPS_TYPE GetPowerUpType()
+    {
+        return tipo;
+    }
 }

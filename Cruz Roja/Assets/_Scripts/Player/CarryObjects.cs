@@ -30,6 +30,7 @@ public class CarryObjects : MonoBehaviour
             other.transform.localPosition = Vector3.zero;
             other.transform.localRotation = Quaternion.identity;
             player.carrying = true;
+            AudioController.instance.PlayRecolectar();
         }
     }
 

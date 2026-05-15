@@ -19,6 +19,7 @@ public class TransitionController : MonoBehaviour
         {
             canvasTransicion.SetActive(true);
             busAnimator.SetBool("transicionNivel", true);
+            AudioController.instance.PlayRadio();
             StartCoroutine(Transicion(collision.gameObject));
         }
     }
