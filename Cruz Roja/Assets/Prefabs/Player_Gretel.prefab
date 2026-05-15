@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1097057596708415781}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ataqueMeele
   m_TagString: Untagged
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
@@ -52,7 +52,8 @@ GameObject:
   - component: {fileID: 468423523440042425}
   - component: {fileID: 6050161527882119805}
   - component: {fileID: 2288789084518995687}
-  m_Layer: 0
+  - component: {fileID: 3641964322692232544}
+  m_Layer: 3
   m_Name: Player_Gretel
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -118,7 +119,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 921955641, guid: 52ef457be22003e4ba3251dda593f7b2, type: 3}
-  m_Color: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -375,6 +376,12 @@ MonoBehaviour:
   isAlive: 1
   puntaje: 0
   female: 1
+  heartsAnim:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  pAnim: {fileID: 5675151824334269903}
+  hudAnim: {fileID: 0}
 --- !u!114 &2288789084518995687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -388,6 +395,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPos: {fileID: 2444601085708611976}
+--- !u!114 &3641964322692232544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8214929035430653895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bf631221f48d4d419a5afaef5ef883b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8455317741915033018
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,7 +416,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2444601085708611976}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: posCargando
   m_TagString: Untagged
   m_Icon: {fileID: 0}

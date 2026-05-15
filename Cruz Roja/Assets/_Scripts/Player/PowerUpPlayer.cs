@@ -20,6 +20,7 @@ public class PowerUpPlayer : MonoBehaviour
     {
         if(other.CompareTag("powerupObject"))
         {
+            Debug.Log("test");
             Destroy(other.gameObject, 0.3f);
         }
     }
