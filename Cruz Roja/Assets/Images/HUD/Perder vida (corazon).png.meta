@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 30696c0b46de21141ac73e567a0e8ac8
+guid: c355c3f196aa72d418e0b13b40eba033
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,127 +110,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Pantalla Da\xF1o_0"
+      name: Perder vida (corazon)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 8
+        y: 1
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d308b8ae6ed36b94988068cc099ba5c4
-      internalID: -1907974750
+      spriteID: 2b62bf3115582334bac1ba6824b36ff0
+      internalID: 1530019942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pantalla Da\xF1o_1"
+      name: Perder vida (corazon)_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 72
         y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46faa9af98ac29d48a2048ba73861aeb
-      internalID: -1199227606
+      spriteID: 1768fe41abdb599409cf2b1c933ff348
+      internalID: -483151626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Pantalla Da\xF1o_2"
+      name: Perder vida (corazon)_2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 136
         y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f6b5062b1452d74d80ba6a098016c76
-      internalID: 409101295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pantalla Da\xF1o_3"
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 272fac1831c091a4ea9f94f9ec9f3647
-      internalID: 312702049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pantalla Da\xF1o_4"
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96445b96b551bc24883f0bedbbc1e73d
-      internalID: 158452253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Pantalla Da\xF1o_5"
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c82b267df27dcc749b548845ea102207
-      internalID: 1282886264
+      spriteID: 8067332f1e7cb7e4990e43ae41cc5012
+      internalID: -885691672
       vertices: []
       indices: 
       edges: []
@@ -246,12 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "Pantalla Da\xF1o_0": -1907974750
-      "Pantalla Da\xF1o_1": -1199227606
-      "Pantalla Da\xF1o_2": 409101295
-      "Pantalla Da\xF1o_3": 312702049
-      "Pantalla Da\xF1o_4": 158452253
-      "Pantalla Da\xF1o_5": 1282886264
+      Perder vida (corazon)_0: 1530019942
+      Perder vida (corazon)_1: -483151626
+      Perder vida (corazon)_2: -885691672
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
