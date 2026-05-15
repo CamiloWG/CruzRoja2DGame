@@ -14918,6 +14918,7 @@ MonoBehaviour:
   efectoRadio: {fileID: 8300000, guid: 2803ff6754615ed4ab6dfbd6664098b6, type: 3}
   jump: {fileID: 8300000, guid: d13f6844b424da140bfc94f8452387b0, type: 3}
   recolectar: {fileID: 8300000, guid: 8b7d4942f663b334693b3b4ce18109cd, type: 3}
+  efectoRata: {fileID: 8300000, guid: 888952e58e49fbb44aa33526d10dc742, type: 3}
   death: {fileID: 8300000, guid: 81e2f631020639343965cd2896a2898a, type: 3}
 --- !u!82 &335425268
 AudioSource:

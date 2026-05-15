@@ -14,6 +14,8 @@ public class AudioController : MonoBehaviour
     public AudioClip jump;
     public AudioClip recolectar;
 
+    public AudioClip efectoRata;
+
 
 
     public AudioClip death;
@@ -61,6 +63,11 @@ public class AudioController : MonoBehaviour
     public void PlayRecolectar()
     {
         PlaySound(recolectar);
+    }
+
+    public void PlayEfectoRata()
+    {
+        PlaySound(efectoRata);
     }
 
 }

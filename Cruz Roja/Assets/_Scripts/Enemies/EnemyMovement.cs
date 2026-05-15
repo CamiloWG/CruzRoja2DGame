@@ -92,6 +92,7 @@ public class EnemyMovement : MonoBehaviour
         {
             if (colliderCabeza.IsTouching(collision))
             {
+                AudioController.instance.PlayEfectoRata();
                 isDead = true;
                 Rigidbody2D rbJugador = collision.GetComponent<Rigidbody2D>();
 
